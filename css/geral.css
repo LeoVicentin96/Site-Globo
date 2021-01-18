@@ -1,0 +1,19 @@
+/*Css Geral*/
+
+body {
+  font-family: 'Open Sans', Arial, 'Helvetica Neue ', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+ul,
+a,
+h1,
+h4,
+h2,
+h3,
+p {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

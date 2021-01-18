@@ -1,0 +1,143 @@
+/* CSS main*/
+
+.container-main {
+  margin: 0 2rem;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.secao-noticia-primeiro {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  border-right: 1px dotted #ccc;
+  margin-top: 4rem;
+}
+
+.caixa-primeira-noticia {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dotted #ccc;
+}
+
+.primeira-chamada-titulo {
+  color: #06aa48;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.item-primeira-chamada {
+  margin-bottom: 10px;
+}
+
+.link-primeira-chamada {
+  font-size: 14px;
+  color: #06aa48;
+}
+
+.caixa-segunda-noticia {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  border-bottom: 1px dotted #ccc;
+}
+
+.caixa-imagem-texto-segunda {
+  float: left;
+  width: 33%;
+  margin-right: 0.8em;
+}
+
+.imagem-segunda-noticia {
+  height: 90px;
+  width: 160px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.texto-segunda-noticia {
+  color: #cd150c;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.caixa-terceira-noticia {
+  display: flex;
+  border-bottom: 1px dotted #ccc;
+  margin-top: 1rem;
+}
+
+.titulo-terceira-noticia {
+  color: #cd150c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.texto-terceira-noticia {
+  color: #cd150c;
+  font-size: 13px;
+  margin: 1rem 0;
+}
+
+/*css segunda coluna noticias*/
+
+.secao-noticia-segunda {
+  width: 25%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px dotted #ccc;
+}
+
+.caixa-segunda-secao {
+  padding: 0 15px 0 15px;
+  margin-bottom: 0.5rem;
+}
+
+.imagem-segunda-secao {
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.titulo-segunda-secao {
+  color: #06aa48;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0.8rem 0;
+}
+
+.texto-segunda-secao {
+  color: #06aa48;
+  font-size: 12px;
+}
+
+/*css terceira coluna de noticias*/
+
+.secao-noticia-terceira {
+  width: 25%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixa-terceira-secao {
+  padding: 0 15px 0 15px;
+}
+
+.imagem-terceira-secao {
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.titulo-terceira-secao {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff8100;
+  margin: 0.5rem 0;
+}
