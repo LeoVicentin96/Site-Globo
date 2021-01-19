@@ -1,12 +1,24 @@
 @media (max-width: 1030px) {
+  /*Css resposivo nav*/
+
+  .container-logo-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .container-login-busca {
+    display: none;
+  }
+
+  /*Css responsivo main*/
   .container-main {
     flex-wrap: wrap;
-    width: 100%;
   }
 
   .secao-noticia-primeiro {
     max-width: 100%;
     margin: 1rem 2rem;
+    border: none;
   }
 
   .caixa-primeira-noticia {
@@ -15,6 +27,7 @@
 
   .secao-noticia-segunda {
     width: 48%;
+    border: none;
   }
 
   .secao-noticia-terceira {
