@@ -36,12 +36,32 @@
 }
 
 @media (max-width: 700px) {
+  .container-main {
+    margin: 0;
+  }
+
   .secao-noticia-segunda {
     width: 100%;
   }
 
   .secao-noticia-terceira {
     width: 100%;
+  }
+
+  .caixa-imagem-texto-segunda {
+    width: 100%;
+  }
+
+  .caixa-segunda-secao {
+    padding: 0;
+    align-items: flex-start;
+    margin: 0 1rem;
+  }
+
+  .secao-noticia-terceira {
+    width: 100%;
+    align-items: flex-start;
+    margin: 0 1rem;
   }
 }
 
